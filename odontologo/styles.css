@@ -1,0 +1,201 @@
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f5;
+    color: #333;
+    margin: 0;
+    padding: 0; /* Elimina el padding del body */
+}
+
+/* Estilos para el header */
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 0; /* Elimina el margen */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.8rem;
+}
+
+/* Estilos para el footer */
+footer {
+    background-color: #0056b3;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin: 0; /* Elimina el margen */
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    font-size: 0.9rem;
+}
+
+footer h5 {
+    margin: 0;
+}
+
+/* Encabezado principal */
+h1 {
+    color: #0056b3;
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Contenedor centrado */
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Alinea al inicio verticalmente */
+    min-height: 60vh;
+    margin-top: -20px; /* Reduce el espacio entre la imagen y el formulario */
+}
+
+/* Contenedor del login */
+.login-container {
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Encabezado del formulario */
+.login-container h2 {
+    text-align: center;
+    color: #333;
+}
+
+/* Campos del formulario */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+input[type="time"],
+input[type="number"],
+select {
+    width: 90%;
+    max-width: 350px;
+    padding: 10px;
+    margin: 10px auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: block;
+}
+
+/* Botón de envío */
+button,
+.submit-btn {
+    width: 90%;
+    max-width: 350px;
+    padding: 10px;
+    margin: 10px auto;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover,
+.submit-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Botón de cerrar sesión */
+.logout-btn {
+    display: block;
+    width: 150px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: #dc3545;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.logout-btn:hover {
+    background-color: #c82333;
+}
+
+/* Contenedor del formulario de registro */
+.form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.form-container h2 {
+    text-align: center;
+    color: #007bff;
+}
+
+/* Tabla de citas */
+.table-container {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #007bff;
+    color: #fff;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Mensaje de citas */
+#citasHoy p {
+    text-align: center;
+    color: #666;
+}
+
+/* Imagen */
+.imagen-container {
+    text-align: center;
+    margin-bottom: 10px; /* Reduce el margen inferior */
+}
+
+.imagen {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 0; /* Elimina el margen inferior */
+}
+
+/* Estilo para el enlace de crear usuario */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
